@@ -9,7 +9,7 @@ int main(){
             index = i;
         }
     }
-    for(int i = 0;i < size(arr); i++){ //It wilol make all highest 0
+    for(int i = 0;i < size(arr); i++){ //It will make all highest 0
         if(highest == arr[i]){
             arr[i] = 0;
         }

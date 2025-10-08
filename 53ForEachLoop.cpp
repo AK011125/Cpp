@@ -5,15 +5,15 @@ int main(){
     int n = sizeof(arr)/sizeof(arr[0]);
 
     //for loop
-    for(int ele:arr){
-        cout<<ele<<endl;
+    for(int i:arr){
+        cout<<i<<endl;
     }
 
     // while loop 
-    int index = 0;
-    while(index < n){
-        cout<<arr[index]<<endl;
-        index++;
+    int j = 0;
+    while(j < n){
+        cout<<arr[j]<<endl;
+        j++;
     }
     return 0;
 }

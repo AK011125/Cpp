@@ -11,7 +11,7 @@ int main(){
         int perrity = n%2;
         ans = ans + perrity*power;
         power = power*10;
-        n=n/10;
+        n=n/2;
 
     }
     cout<<ans;
